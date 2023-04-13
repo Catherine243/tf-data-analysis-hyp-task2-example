@@ -12,6 +12,6 @@ def solution(x: np.array, y: np.array) -> bool:
     pv = ks_2samp(x, y)[1]
     
     if (p_value < 0.05):
-    return True
+        return True
     else:
-    return False 
+        return False 
